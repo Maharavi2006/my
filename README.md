@@ -23,7 +23,7 @@ Testing the webserver.
 ## PROGRAM:
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content ="""
-
+```
 <html>
 <head>
     <h1>Top Five Companies by Revenue</h1>
@@ -82,8 +82,11 @@ httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever() 
 
+```
+
 ## OUTPUT:
-![alt text](<Screenshot 2024-03-21 214156.png>)
+
+![alt text](<Screenshot 2024-03-22 091829.png>)
 ![alt text](<Screenshot 2024-03-15 094448-1.png>)
 
 
